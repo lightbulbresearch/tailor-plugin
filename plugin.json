@@ -16,7 +16,7 @@
     "com.openai": {
       "interface": {
         "displayName": "Tailor",
-        "shortDescription": "Your personal stylist",
+        "shortDescription": "Find clothes from real shops",
         "longDescription": "Tailor is a personal stylist for real shops. Ask for clothes in your own words and Tailor searches H&M, Cotton On, Zara and Mango in South Africa, and Zara and Cotton On in the United States and the United Kingdom, then shows the pieces as cards with photos, prices and a link to buy on the retailer's own site.\n\nWhat you can do:\n- Search by description, budget, store, colour, size or sale, in women's, men's, kids' and baby clothes.\n- Tailor a piece you like: \"same, but in navy\" or \"but cropped\".\n- Find look-alikes, cheaper alternatives or the same look at another store.\n- Build a complete outfit for an occasion or dress code, within a budget.\n- Plan a mix-and-match capsule wardrobe for a trip or a new season.\n\nTailor is free and needs no account. It only reads its own index of public product listings; it can't buy anything, see your orders or sign in to a store. Purchases happen on the retailer's site. Prices are in each shop's own currency and aren't converted, and stock and prices can change, so the retailer's page is always the final word.",
         "developerName": "Light Bulb Research (Pty) Ltd",
         "category": "Shopping",
