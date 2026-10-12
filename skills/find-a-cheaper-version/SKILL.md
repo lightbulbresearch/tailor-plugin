@@ -1,6 +1,6 @@
 ---
 name: find-a-cheaper-version
-description: Find a cheaper or alternative version of a piece of clothing with Tailor, such as a look-alike of something the user saw elsewhere, the same look at another store, or something similar on sale. Use when someone asks for a dupe, a cheaper option, alternatives, or "something like this but less".
+description: Find a cheaper or alternative version of one specific piece of clothing with Tailor, when the user already has the item in mind, either one Tailor showed or one they saw elsewhere, and asks for a dupe, a cheaper option, alternatives or the same look at another store. Not for ordinary searches with a budget, such as "a coat under £150"; those are plain searches.
 ---
 
 # Find a cheaper version with Tailor
@@ -14,8 +14,8 @@ these are look-alikes, not the same product.
   `product_type`.
 - **Something from elsewhere** (described, linked or in a photo): describe it the way
   a product page would, with colour, cut, fabric, pattern, length and details, and
-  note its price if the user knows it. Tailor only searches its own index, so don't
-  try to open or buy from other sites.
+  note its price if the user knows it. Work from what the user tells you: Tailor only
+  searches its own index, so don't look the item up on the web or open other sites.
 
 Also confirm the user's **country** (`za`, `us` or `gb`) and **department**. Ask what
 "cheaper" means if it's unclear; by default, aim for well under the original price.
