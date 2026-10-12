@@ -1,0 +1,15 @@
+{
+  "name": "tailor",
+  "displayName": "Tailor",
+  "version": "1.0.0",
+  "description": "Your personal stylist: searches H&M, Cotton On, Zara and Mango in South Africa, and Zara and Cotton On in the US and UK, and shows the pieces as cards with photos, prices and a link to buy at the store. Builds outfits, plans capsule wardrobes and finds cheaper look-alikes.",
+  "author": {
+    "name": "Light Bulb Research (Pty) Ltd",
+    "email": "tailor@lightbulbresearch.com",
+    "url": "https://www.tailor.ai"
+  },
+  "homepage": "https://www.tailor.ai/docs",
+  "repository": "https://github.com/lightbulbresearch/tailor-plugin",
+  "license": "MIT",
+  "keywords": ["fashion", "shopping", "clothes", "outfits", "stylist", "south-africa", "uk", "us"]
+}
