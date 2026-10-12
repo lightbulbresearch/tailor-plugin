@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "tailor",
+  "name": "tailor-ai",
   "version": "1.0.0",
   "description": "Find clothes from real shops. Search Zara, Cotton On, H&M and Mango (South Africa, US, UK) and see the pieces as cards with photos, prices and a link to buy. Includes skills for building outfits, planning capsule wardrobes and finding cheaper look-alikes.",
   "author": {
@@ -21,9 +21,9 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Tailor",
+        "displayName": "Tailor.ai",
         "shortDescription": "Find clothes from real shops",
-        "longDescription": "Tailor finds clothes you can actually buy. Ask for what you're after, such as a white linen shirt under R600, an outfit for a summer wedding, or a warm coat for a week in London, and Tailor searches the retailers' own online shops and shows the pieces as cards, with photos, prices and a link to the product page.\n\nShops\n- South Africa: H&M, Cotton On, Zara and Mango, in rand\n- United States: Zara and Cotton On, in US dollars\n- United Kingdom: Zara and Cotton On, in pounds\nWomen's, men's, kids' and baby clothes, plus shoes, bags and accessories.\n\nWhat you can ask for\n- Clothes by description, budget, store, colour, size or sale\n- A change to a piece you like: \"same, but in navy\" or \"but cropped\"\n- Look-alikes, cheaper alternatives, or the same look at another store\n- A complete outfit for an occasion or dress code, within a budget\n- A mix-and-match capsule wardrobe for a trip or a new season\n\nEvery card has Tailor and Similar buttons, so you can change a piece or see more like it straight from the results.\n\nTailor is free, with no account or sign-in. It only reads its own index of public product listings: it can't buy anything, see your orders or sign in to a store. You buy on the retailer's site. Prices are in each shop's own currency and aren't converted, and stock and prices can change, so the retailer's page is always the final word.",
+        "longDescription": "Tailor.ai finds clothes you can actually buy. Ask for what you're after, such as a white linen shirt under R600, an outfit for a summer wedding, or a warm coat for a week in London, and Tailor.ai searches the retailers' own online shops and shows the pieces as cards, with photos, prices and a link to the product page.\n\nShops\n- South Africa: H&M, Cotton On, Zara and Mango, in rand\n- United States: Zara and Cotton On, in US dollars\n- United Kingdom: Zara and Cotton On, in pounds\nWomen's, men's, kids' and baby clothes, plus shoes, bags and accessories.\n\nWhat you can ask for\n- Clothes by description, budget, store, colour, size or sale\n- A change to a piece you like: \"same, but in navy\" or \"but cropped\"\n- Look-alikes, cheaper alternatives, or the same look at another store\n- A complete outfit for an occasion or dress code, within a budget\n- A mix-and-match capsule wardrobe for a trip or a new season\n\nEvery card has Tailor and Similar buttons, so you can change a piece or see more like it straight from the results.\n\nTailor.ai needs no account or sign-in. It only reads its own index of public product listings: it can't buy anything, see your orders or sign in to a store. You buy on the retailer's site. Prices are in each shop's own currency and aren't converted, and stock and prices can change, so the retailer's page is always the final word.",
         "developerName": "Light Bulb Research (Pty) Ltd",
         "category": "Shopping",
         "capabilities": [
@@ -96,7 +96,7 @@
           ]
         },
         "commerce": false,
-        "commerce_description": "Tailor searches public product listings and links to the retailer's own product page. It has no cart, checkout or payments, and it can't place orders."
+        "commerce_description": "Tailor.ai searches public product listings and links to the retailer's own product page. It has no cart, checkout or payments, and it can't place orders."
       },
       "publication": {
         "release_notes": "First release: product search across H&M, Cotton On, Zara and Mango (South Africa) and Zara and Cotton On (US, UK), with Tailor and Similar on every card, plus skills for outfits, capsule wardrobes and cheaper look-alikes."

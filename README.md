@@ -1,13 +1,13 @@
-# Tailor
+# Tailor.ai
 
 **Find clothes from real shops.**
 
-Tailor finds clothes you can actually buy. Ask for what you're after, such as a white
+Tailor.ai finds clothes you can actually buy. Ask for what you're after, such as a white
 linen shirt under R600, an outfit for a summer wedding, or a warm coat for a week in
-London, and Tailor searches the retailers' own online shops and shows the pieces as
+London, and Tailor.ai searches the retailers' own online shops and shows the pieces as
 cards, with photos, prices and a link to the product page.
 
-![Tailor](assets/logo.png)
+![Tailor.ai](assets/logo.png)
 
 ## Shops
 
@@ -19,7 +19,7 @@ cards, with photos, prices and a link to the product page.
 
 Women's, men's, kids' and baby clothes, plus shoes, bags and accessories. Prices are in
 each shop's own currency and aren't converted, and retailers ship only within their own
-country, so Tailor searches the shop where you live.
+country, so Tailor.ai searches the shop where you live.
 
 ## What you can ask for
 
@@ -45,7 +45,7 @@ would. More tips: <https://www.tailor.ai/docs>.
 
 ## What's in the plugin
 
-- **The Tailor connector** (`https://mcp.tailor.ai/mcp`). It has six read-only tools:
+- **The Tailor.ai connector** (`https://mcp.tailor.ai/mcp`). It has six read-only tools:
   search products, find similar products, tailor a product, show a set of products, get
   one product's details, and a catalogue overview. Connect it when the plugin asks; there
   is no account or sign-in.
@@ -59,14 +59,14 @@ would. More tips: <https://www.tailor.ai/docs>.
 The skills are instructions only: they run no code and send nothing themselves. The
 connector sends the searches the assistant makes (search text and filters such as
 country, department, store and price) to `mcp.tailor.ai`, operated by Light Bulb Research
-(Pty) Ltd. Tailor never sees your conversation, name or account.
+(Pty) Ltd. Tailor.ai never sees your conversation, name or account.
 
-Tailor logs those searches, without your IP address or identity, to improve results.
+Tailor.ai logs those searches, without your IP address or identity, to improve results.
 Product links go through `www.tailor.ai/go/…`, which records the click (with a hash of
 your IP address that changes daily, never the address itself) and redirects you to the
-retailer. Logs are deleted after two years. Tailor has no accounts and sets no cookies.
+retailer. Logs are deleted after two years. Tailor.ai has no accounts and sets no cookies.
 
-Tailor is free. It only reads its own index of public product listings: it can't buy
+Tailor.ai only reads its own index of public product listings: it can't buy
 anything, see your orders or sign in to a store. You buy on the retailer's site, and
 stock and prices can change, so the retailer's page is always the final word.
 
