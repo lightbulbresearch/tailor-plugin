@@ -17,7 +17,7 @@ descriptions here.
 ```sh
 scripts/check.sh              # manifests agree, OpenAI length limits, skill front matter, README length
 claude plugin validate .      # Claude's own manifest check
-scripts/build-openai-zip.sh   # → dist/tailor-<version>.zip, for platform.openai.com/plugins
+scripts/build-openai-zip.sh   # → dist/<name>-<version>.zip, for platform.openai.com/plugins
 ```
 
 ## Release

@@ -6,7 +6,8 @@ set -eu
 
 scripts/check.sh
 version=$(python3 -c 'import json; print(json.load(open("plugin.json"))["version"])')
-out="dist/tailor-$version.zip"
+name=$(python3 -c 'import json; print(json.load(open("plugin.json"))["name"])')
+out="dist/$name-$version.zip"
 mkdir -p dist
 rm -f "$out"
 zip -qrX "$out" plugin.json mcp.json skills assets README.md LICENSE -x '*.DS_Store'
