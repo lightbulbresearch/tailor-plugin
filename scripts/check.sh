@@ -17,8 +17,8 @@ for key in ("name", "version", "description"):
     if claude.get(key) != openai.get(key):
         errors.append(f"{key} differs between .claude-plugin/plugin.json and plugin.json")
 
-claude_url = json.loads(Path(".mcp.json").read_text())["mcpServers"]["tailor"]["url"]
-if mcp["mcpServers"]["tailor"]["url"] != claude_url:
+claude_url = json.loads(Path(".mcp.json").read_text())["mcpServers"]["Tailor.ai"]["url"]
+if mcp["mcpServers"]["Tailor.ai"]["url"] != claude_url:
     errors.append("MCP server URL differs between .mcp.json and mcp.json")
 
 ui = openai["extensions"]["com.openai"]["interface"]

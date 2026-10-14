@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "tailor": {
+    "Tailor.ai": {
       "type": "http",
       "url": "https://mcp.tailor.ai/mcp"
     }
