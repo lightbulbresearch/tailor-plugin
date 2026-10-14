@@ -36,8 +36,11 @@ Pass `exclude_ids` for products already shown, to get fresh results.
 
 ## 3. Present
 
-Call `show_products` with the best 3 to 6 options, closest look first, and a `title`
-such as "Cheaper takes on the camel coat". Don't re-list them in text. Add:
+Each search, similar or tailor call already shows its results as cards. If one call
+found the options, those cards are the answer: don't show them again with
+`show_products`. If the options came from several calls, call `show_products` once
+with the best 3 to 6, closest look first, and a `title` such as "Cheaper takes on
+the camel coat". Either way, don't re-list the products in text. Add:
 
 - for each option worth mentioning, how close it is and what's different (fabric,
   length, details)
