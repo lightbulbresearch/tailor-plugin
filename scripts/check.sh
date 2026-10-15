@@ -2,6 +2,7 @@
 # Checks the two manifests agree and the listing text fits OpenAI's limits.
 # Run from the repository root: scripts/check.sh
 set -eu
+cd "$(dirname "$0")/../tailor-ai"
 
 python3 - <<'EOF'
 import json, re, sys
