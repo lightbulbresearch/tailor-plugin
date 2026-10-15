@@ -11,6 +11,11 @@
   "homepage": "https://www.tailor.ai/docs",
   "repository": "https://github.com/lightbulbresearch/tailor-plugin",
   "license": "MIT",
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://www.tailor.ai/docs",
+  "supportUrl": "https://www.tailor.ai/docs",
+  "privacyPolicyUrl": "https://www.tailor.ai/privacy",
+  "termsOfServiceUrl": "https://www.tailor.ai/terms",
   "keywords": [
     "fashion",
     "shopping",
