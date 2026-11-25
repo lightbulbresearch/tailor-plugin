@@ -9,11 +9,13 @@ plugin is assembled from it plus [`openai/`](openai/):
 | `openai/plugin.json`, `openai/mcp.json`, `openai/assets/` | OpenAI, in the Agent Plugins format |
 | `tailor-ai/skills/`, `tailor-ai/README.md`, `tailor-ai/LICENSE` | Both |
 
-`tailor-ai/` holds only what Claude reads, so Anthropic's directory scan comes back with
-no notes: no scripts, no images, no second manifest, and no listing-only fields (`icon`,
-`documentationUrl`, `supportUrl`, `privacyPolicyUrl`, `termsOfServiceUrl`) in the Claude
-manifest. Set the icon and those links in the directory's submission form (Listing tab)
-instead. `scripts/check.sh` fails if any of them comes back.
+`tailor-ai/` holds only what Claude reads, so Anthropic's directory scan stays quiet: no
+scripts, no second manifest, and no listing-only fields (`icon`, `documentationUrl`,
+`supportUrl`, `privacyPolicyUrl`, `termsOfServiceUrl`) in the Claude manifest. The
+directory finds the icon at `tailor-ai/.claude-plugin/icon.png` (a copy of
+`openai/assets/logo.png`) and the privacy policy from the Markdown link on the README's
+privacy line; set the other links in the submission form (Listing tab).
+`scripts/check.sh` fails if any of this drifts.
 
 The MCP server itself lives in the private `tailor-ai` repository (`tailor.ai.mcp/`). Its
 connector listing text is in `tailor.ai.mcp/LISTING.md` there; keep it in step with the
