@@ -1,6 +1,6 @@
 # Tailor.ai plugin
 
-**Find clothes from real shops.** Tailor.ai searches H&M, Cotton On, Zara and Mango in
+**Find clothes from real shops.** Tailor.ai searches H&M, Cotton On and Zara in
 South Africa, and Zara and Cotton On in the US and UK, and shows the pieces as cards with
 photos, prices and a link to buy on the retailer's own site.
 

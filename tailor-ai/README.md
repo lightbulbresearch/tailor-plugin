@@ -13,7 +13,7 @@ cards, with photos, prices and a link to the product page.
 
 | Country | Stores | Prices in |
 | --- | --- | --- |
-| South Africa | H&M, Cotton On, Zara, Mango | Rand (R) |
+| South Africa | H&M, Cotton On, Zara | Rand (R) |
 | United States | Zara, Cotton On | US dollars ($) |
 | United Kingdom | Zara, Cotton On | Pounds (£) |
 
