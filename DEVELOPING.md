@@ -1,16 +1,19 @@
 # Developing the Tailor.ai plugin
 
-The plugin lives in [`tailor-ai/`](tailor-ai/). That folder is both a Claude plugin and an
-OpenAI (ChatGPT and Codex) plugin:
+The Claude plugin lives in [`tailor-ai/`](tailor-ai/); the OpenAI (ChatGPT and Codex)
+plugin is assembled from it plus [`openai/`](openai/):
 
-| File in `tailor-ai/` | Used by |
+| Path | Used by |
 | --- | --- |
-| `.claude-plugin/plugin.json`, `.mcp.json` | Claude (claude.ai, Cowork, Claude Code) |
-| `plugin.json`, `mcp.json` | OpenAI, in the Agent Plugins format |
-| `skills/`, `assets/`, `README.md`, `LICENSE` | Both |
+| `tailor-ai/.claude-plugin/plugin.json`, `tailor-ai/.mcp.json` | Claude (claude.ai, Cowork, Claude Code) |
+| `openai/plugin.json`, `openai/mcp.json`, `openai/assets/` | OpenAI, in the Agent Plugins format |
+| `tailor-ai/skills/`, `tailor-ai/README.md`, `tailor-ai/LICENSE` | Both |
 
-Build tooling stays outside the plugin folder, so nothing in the plugin is a script: the
-directory's validator holds a plugin for review when a script in it refers to its images.
+`tailor-ai/` holds only what Claude reads, so Anthropic's directory scan comes back with
+no notes: no scripts, no images, no second manifest, and no listing-only fields (`icon`,
+`documentationUrl`, `supportUrl`, `privacyPolicyUrl`, `termsOfServiceUrl`) in the Claude
+manifest. Set the icon and those links in the directory's submission form (Listing tab)
+instead. `scripts/check.sh` fails if any of them comes back.
 
 The MCP server itself lives in the private `tailor-ai` repository (`tailor.ai.mcp/`). Its
 connector listing text is in `tailor.ai.mcp/LISTING.md` there; keep it in step with the

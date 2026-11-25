@@ -7,8 +7,6 @@ linen shirt under R600, an outfit for a summer wedding, or a warm coat for a wee
 London, and Tailor.ai searches the retailers' own online shops and shows the pieces as
 cards, with photos, prices and a link to the product page.
 
-![Tailor.ai](assets/logo.png)
-
 ## Shops
 
 | Country | Stores | Prices in |
