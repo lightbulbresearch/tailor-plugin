@@ -68,8 +68,8 @@ Tailor.ai only reads its own index of public product listings: it can't buy
 anything, see your orders or sign in to a store. You buy on the retailer's site, and
 stock and prices can change, so the retailer's page is always the final word.
 
-- Privacy policy: <https://www.tailor.ai/privacy>
-- Terms of service: <https://www.tailor.ai/terms>
+- [Privacy policy](https://www.tailor.ai/privacy)
+- [Terms of service](https://www.tailor.ai/terms)
 
 ## Support
 

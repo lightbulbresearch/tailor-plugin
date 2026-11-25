@@ -53,6 +53,12 @@ for stray in ("plugin.json", "mcp.json", "assets"):
     if (Path("tailor-ai") / stray).exists():
         errors.append(f"tailor-ai/{stray} belongs in openai/ (the directory scan flags it)")
 
+if not Path("tailor-ai/.claude-plugin/icon.png").is_file():
+    errors.append("tailor-ai/.claude-plugin/icon.png missing (square PNG, 512-2048 px; the directory warns without it)")
+readme = Path("tailor-ai/README.md").read_text()
+if not any("privacy" in line.lower() and re.search(r"\]\(https://", line) for line in readme.splitlines()):
+    errors.append("tailor-ai/README.md needs a line with the word 'privacy' and a [text](https://...) link")
+
 for error in errors:
     print(f"✗ {error}", file=sys.stderr)
 if errors:
